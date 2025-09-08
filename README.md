@@ -18,16 +18,22 @@ A sexta etapa foi sobre a criação de blocos de código reutilizáveis. Definir
 Finalmente, esta fase se concentrou na persistência de dados do usuário entre diferentes requisições. O uso de cookies para armazenar informações no navegador do cliente por um período determinado. Em seguida sessões, que são uma forma mais segura de armazenar dados do usuário no servidor, criando um identificador único para cada visitante e permitindo a criação de sistemas de login e carrinhos de compra.
 Minhas Anotações sobre Decisões Técnicas em PHP
 GET vs. POST
+
 Ao escolher entre os métodos GET e POST, a principal diferença é a segurança e a forma como os dados são enviados.
 GET envia dados na URL. É ideal para buscas ou links que podem ser compartilhados, mas não é seguro para informações sensíveis, como senhas, e tem um limite de tamanho.
 POST envia os dados de forma oculta, no corpo da requisição. É a forma segura de enviar dados confidenciais e permite o envio de grandes volumes de informação.
+
 Cookies vs. Sessões
 Para manter informações de um usuário entre as páginas, a escolha entre cookies e sessões depende de onde os dados serão guardados.
 Cookies guardam dados no navegador do usuário. São úteis para preferências do site, mas não são seguros para dados importantes, pois o usuário pode apagá-los.
 Sessões guardam dados de forma segura no servidor. São ideais para informações sensíveis, como o status de login, e os dados são perdidos quando o navegador é fechado.
+
 Funções Próprias
 Usar funções é essencial para evitar a repetição de código. Elas trazem três benefícios principais:
 Reutilização: Permite que você escreva um código uma única vez e o use em vários lugares.
 Manutenção: Se precisar fazer uma mudança, você só a faz em um lugar.
 Organização: Deixa o código mais limpo e fácil de ler.
 Em essência, funções ajudam a construir um projeto mais organizado, eficiente e fácil de manter.
+
+
+<img width="768" height="185" alt="site_navigation" src="https://github.com/user-attachments/assets/ce60f687-69ad-4f2f-b9a6-32c800bf2bc5" />
