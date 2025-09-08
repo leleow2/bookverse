@@ -37,4 +37,5 @@ Em essência, funções ajudam a construir um projeto mais organizado, eficiente
 
 
 <img width="768" height="185" alt="site_navigation" src="https://github.com/user-attachments/assets/ce60f687-69ad-4f2f-b9a6-32c800bf2bc5" />
+
 este e o diagrama de todas as areas do nosso site
